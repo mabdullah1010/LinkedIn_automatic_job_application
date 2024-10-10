@@ -81,7 +81,7 @@ except:
 
     easy_apply = driver.find_element(By.XPATH, "/html/body/div[5]/div[3]/div[4]/div/div/main/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[6]/div/div/div/button")
     easy_apply.click()
-    time.sleep(1)
+    time.sleep(1.01)
     next_button = driver.find_element(By.XPATH, "/html/body/div[3]/div/div/div[2]/div/div[2]/form/footer/div[2]/button")
     next_button.click()
 
