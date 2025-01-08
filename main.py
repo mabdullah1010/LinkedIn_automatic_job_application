@@ -6,7 +6,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import time
 
-
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
 print("Automatic Job Application via LinkedIn")
